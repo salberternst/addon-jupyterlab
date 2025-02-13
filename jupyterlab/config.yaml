@@ -13,6 +13,8 @@ arch:
 homeassistant_api: true
 init: false
 kernel_modules: true
+devices: 
+  - /dev/hailo0
 map:
   - config:rw
   - share:rw
