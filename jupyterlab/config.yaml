@@ -1,5 +1,5 @@
 ---
-name: JupyterLab
+name: JupyterLab with hailo
 version: dev
 slug: jupyterlablite
 description: Create documents containing live code, equations, visualizations, and explanatory text
@@ -12,6 +12,7 @@ arch:
   - amd64
 homeassistant_api: true
 init: false
+kernel_modules: true
 map:
   - config:rw
   - share:rw
